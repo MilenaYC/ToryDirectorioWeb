@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<title>Tory</title>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <style>
+      body {
+      font-family: monospace;
+    }
+    h1 {
+      color: rgb(255, 255, 255);
+      display: inline-block;
+      font-size: 3em;
+      margin: 0;
+      padding: 0px;
+    }
+    h3 {
+      color: black;
+      font-size: 20px;
+      margin-top: 3px;
+      text-align: center;
+    }
+    #chatbox {
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+      margin-top: 60px;
+    }
+    #userInput {
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      margin-top: 60px;
+    }
+    #textInput {
+      width: 90%;
+      border: none;
+      border-bottom: 3px solid black;
+      font-family: monospace;
+      font-size: 17px;
+    }
+    .userText {
+      color: black;
+      font-family: monospace;
+      font-size: 17px;
+      text-align: right;
+      line-height: 30px;
+    }
+    .userText span {
+      background-color: #bdbdbd;
+      padding: 10px;
+      border-radius: 2px;
+    }
+    .botText {
+      color: black;
+      font-family: monospace;
+      font-size: 17px;
+      text-align: left;
+      line-height: 30px;
+    }
+    .botText span {
+      background-color: #BEE3FF;
+      padding: 10px;
+      border-radius: 2px;
+    }
+    #tidbit {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 300px;
+    }
+    .boxed {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      margin-top: 60px;
+      border: 3px solid rgb(66, 50, 53);
+    }
+    .box {
+      border: 2px solid black;
+    }
+    
+    .yo {
+    color: white;
+    font-family: cursive;
+    width: 55%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: #a0a0a0;
+    border-radius: 10px;
+    float: right;
+    text-align: right;
+    display: block;
+    }
+
+    .tory {
+        color: white;
+        font-family: cursive;
+        width: 60%;
+        height: auto;
+        padding: 10px;
+        margin: 5px;
+        background-color: rgb(96, 93, 102);
+        border-radius: 10px;
+        float: left;
+        text-align: left;
+        display: block;
+    }
+    </style>
+    
+  </head>
+
+  <body>
+    <div class="bg-dark">
+      <center>
+        <a class="navbar-brand center" href="#">
+          <img src="https://www.pinclipart.com/picdir/big/204-2040657_…-bt21freetoedit-sticker-by-xiumin-photography.png" width="80" height="80" class="d-inline-block align-top" alt="">
+          <h1 class="text-center">Tory</h1>
+        </a>
+      </center>
+    </div>
+
+      <div class="boxed">
+        <div>
+          <div class="container-fluid">
+            
+              <div class="" id="chatbox">              
+                <div class="row"><img src="https://www.bt21.com/img/baby/memeThumb/img_preveal_17.png" class="col-2" width="50" height="50" >
+                <p class="tory col-6"><span >Hola Soy Tory, Tu directorio!</span></p>
+              </div>
+              
+            </div>
+          </div>
+          <div id="userInput">
+            <input id="textInput" type="text" name="msg" class="form-control" placeholder="Mensaje" /> 
+            
+          </div>
+          
+      </div>
+        <script>
+            function getBotResponse() {
+              var rawText = $("#textInput").val();
+              var userHtml = '<div class="row"><div class="col-3"></div><p class="yo col-6"><span >' + rawText + '</span></p><img src="https://www.bt21.com/img/baby/memeThumb/img_preveal_15.png" class="col-2" width="50" height="50" ></div>';
+
+              $("#textInput").val("");
+              $("#chatbox").append(userHtml);
+              document
+                .getElementById("userInput")
+                .scrollIntoView({ block: "start", behavior: "smooth" });
+              $.get("/get", { msg: rawText }).done(function(data) {
+                var botHtml = '<div class="row"><img src="https://www.bt21.com/img/baby/memeThumb/img_preveal_17.png" class="col-2" width="50" height="50" ><p class="tory col-6"><span >' + data + "</span></p></div>";
+                $("#chatbox").append(botHtml);
+                document
+                  .getElementById("userInput")
+                  .scrollIntoView({ block: "start", behavior: "smooth" });
+              });
+            }
+            $("#textInput").keypress(function(e) {
+              if (e.which == 13) {
+                getBotResponse();
+              }
+            });
+        </script>
+    </div>
+  </body>
+</html>

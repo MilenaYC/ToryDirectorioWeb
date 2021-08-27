@@ -1,0 +1,367 @@
+{
+    "sabiduria":[   
+    {                                       
+        "indicador": "saludo",
+        "entradas": [
+            "Hola",
+            "Buen dia",
+            "Buenas tardes",
+            "Hols",
+            "Buenas noches"
+        ],
+        "respuestas": [
+            "Hola :)",
+            "Buen dia <3",
+            "Buenas tardes <3",
+            "Buenas noches <3"
+
+        ]
+     },
+
+     {
+        "indicador": "bomberos",
+        "entradas": [
+            "¿donde se ubica los bomberos?",
+            "¿numero de los bomberos?",
+            "¿direccion de los bomberos?",
+            "¿informacion de los bomberos?"
+        ],
+        "respuestas": [
+            "Los bomberos se ubican en Av. El sol 458, para emergencias llamar al #116"
+        ]
+     },
+     {
+        "indicador": "policia",
+        "entradas": [
+            "¿donde se ubica la policia?",
+            "¿numero de la policia?",
+            "¿direccion de la policia?",
+            "¿informacion de la policia?"
+        ],
+        "respuestas": [
+            "La policia se ubica en Jr. Deustua 536, para emergencias llamar al #105"
+        ]
+     },
+
+
+     {
+        "indicador": "hospital manuel",
+        "entradas": [
+            "¿donde se ubica el hospital manuel nuñez butron?",
+            "¿ubicacionhospital manuel nuñez butron?",
+            "¿Contacto del hospital manuel nuñez butron?",
+            "¿celular la granjita?"
+        ],
+        "respuestas": [
+            "El hospital Manuel Nunez Butron se encuentra en Av. El Sol 1022, telefono: 351021"
+        ]
+     },
+     {
+        "indicador": "hospital essalud",
+        "entradas": [
+            "¿direccion hospital essalud?",
+            "¿ubicacion del hospital essalud?",
+            "¿Contacto del hospital essalud?",
+            "¿celular del hospital essalud?"
+        ],
+        "respuestas": [
+            "El hospital EsSalud se encuentra en el parque industrial Salcedo, telefono (051) 367385 "
+        ]
+     },
+     {
+        "indicador": "clinica puno",
+        "entradas": [
+            "¿donde es la clinica puno?",
+            "¿ubicacion de la clinica puno?",
+            "¿Contacto de la clinica puno?",
+            "¿celular la clinica puno?"
+        ],
+        "respuestas": [
+            "La Clinica Puno se ubica en Av. Ramon Castilla 180, telefono: 368835"
+        ]
+     },
+     {
+        "indicador": "clinica santo domingo",
+        "entradas": [
+            "¿clinica santo domingo puno?",
+            "¿ubicacion clinica santo domingo?",
+            "¿Contacto clinica santo domingo?",
+            "¿celular clinica santo domingo?"
+        ],
+        "respuestas": [
+            "La Clinica Santo Domingo se ubica en Av. Concordia 407, celular : 999 669 123"
+        ]
+     },
+
+     {
+        "indicador": "restaurante granjita",
+        "entradas": [
+            "¿restaurante polleria la granjita?",
+            "¿ubicacion polleria la granjita?",
+            "¿Contacto de la granjita?",
+            "¿celular la granjita?"
+        ],
+        "respuestas": [
+            "Polleria la granjita, se ubica en Avenida circunvalacion con Apurímac 820, celular: 921 220 961"
+        ]
+     },
+     {
+        "indicador": "restaurante Mojsa",
+        "entradas": [
+            "¿restaurante Mojsa?",
+            "¿Donde esta Mojsa",
+            "¿Contacto de Mojsa",
+            "¿celular restaurante Mojsa?"
+        ],
+        "respuestas": [
+            "Mojsa Restaurant se ubica en Jr. Lima 635, telefono: (051) 363182"
+        ]
+     },
+     {
+        "indicador": "restaurante balcones",
+        "entradas": [
+            "¿restaurante balcones de puno?",
+            "¿ubicacion balcones de puno?",
+            "¿Contacto balcones de puno?",
+            "¿celular balcones de puno?"
+        ],
+        "respuestas": [
+            "Balcones de Puno se ubica en Jr. Libertad 354, telefono: (051) 365300"
+        ]
+     },
+     {
+        "indicador": "restaurante casona",
+        "entradas": [
+            "¿restaurante la casona?",
+            "¿ubicacion la casona restaurant?",
+            "¿contacto la casona restaurant?",
+            "¿celular la casona restaurant?"
+        ],
+        "respuestas": [
+            "La Casona Restaurante se ubica en Jr. Lima 423, telefono: (051) 351108"
+        ]
+     },
+     {
+        "indicador": "restaurante cevicheria mareas",
+        "entradas": [
+            "¿restaurante Mareas ceviche?",
+            "¿ubicacion Mareas ceviche?",
+            "¿contacto Mareas ceviche?",
+            "¿celular Mareas ceviche?"
+        ],
+        "respuestas": [
+            "La cevicheria Mareas se ubica en Jr. Cajamarca 448, telefono: (051) 777000"
+        ]
+     },
+
+     {
+        "indicador": "restaurante pizza machupizza",
+        "entradas": [
+            "¿restaurante pizzeria Machupizza?",
+            "¿ubicacion Machupizza?",
+            "¿contacto Machupizza?",
+            "¿celular Machupizza?"
+        ],
+        "respuestas": [
+            "Machupizza se ubica en Jr. Tacna 279, telefono: (051) 638684"
+        ]
+     },
+     {
+        "indicador": "restaurante sabor peruano",
+        "entradas": [
+            "¿restaurante sabor peruano chicharroneria?",
+            "¿ubicacion sabor peruano?",
+            "¿contacto sabor peruano?",
+            "¿celular sabor peruano?"
+        ],
+        "respuestas": [
+            "Sabor peruano se ubica en Jr. Velasco Astete 227, celular: 937 00 051"
+        ]
+     },
+     {
+        "indicador": "recomendacion restaurante",
+        "entradas": [
+            "¿donde comer?",
+            "¿mejor restaurante?",
+            "recomiendame restaurant",
+            "¿recomendacion de un restaurante?",
+            "¿a que restaurante ir?"
+        ],
+        "respuestas": [
+            "Restaurante la casona",
+            "Cevicheria Mareas",
+            "Chicharroneria Sabor peruano",
+            "Pizzeria Machupizza",
+            "Restaurante La casona"
+        ]
+     },
+     {
+        "indicador": "hotel sol plaza",
+        "entradas": [
+            "¿hotel sol plaza?",
+            "¿ubicacion hotel sol plaza?",
+            "¿contacto hotel sol plaza?",
+            "¿celular hotel sol plaza?"
+        ],
+        "respuestas": [
+            "Hotel Sol Plaza se encuentra en Av. Puno 307, telefono: (051) 352658"
+        ]
+     },
+     {
+        "indicador": "hotel casona centro",
+        "entradas": [
+            "¿Casona hotel centro?",
+            "¿ubicacion hotel casona?",
+            "¿contacto hotel casona?",
+            "¿celular hotel casona?"
+        ],
+        "respuestas": [
+            "El hotel Casona se encuentra en Jr. Lima 779, telefono: (051) 352881"
+        ]
+     },
+
+     {
+        "indicador": "hotel Qelqatani",
+        "entradas": [
+            "¿hotel Qelqatani?",
+            "¿ubicacion hotel Qelqatani?",
+            "¿contacto hotel Qelqatani?",
+            "¿celular hotel Qelqatani?"
+        ],
+        "respuestas": [
+            "Hotel Qelqatani se ubica en Jr. Tarapaca 355, telefono: (051) 366172"
+        ]
+     },
+     {
+        "indicador": "hotel qalasaya",
+        "entradas": [
+            "¿hotel qalasaya?",
+            "¿ubicacion hotel qalasaya?",
+            "¿contacto hotel qalasaya?",
+            "¿celular hotel qalasaya?"
+        ],
+        "respuestas": [
+            "Hotel Qalasaya se ubica en Jr. Grau 240, tlefono: (051) 368238"
+        ]
+     },
+     {
+        "indicador": "hotel ciudad del lago",
+        "entradas": [
+            "¿hotel ciudad del lago?",
+            "¿ubicacion hotel ciudad del lago?",
+            "¿contacto hotel ciudad del lago?",
+            "¿celular hotel ciudad del lago?"
+        ],
+        "respuestas": [
+            "El Hotel Ciudad del Lago se ubica en Jr. Conde de Lemus 120, telefono: (051) 355223"
+        ]
+     },
+
+     {
+        "indicador": "recomendacion hotel",
+        "entradas": [
+            "¿donde hospedarme?",
+            "¿cual es un buen hotel?",
+            "¿donde ir a descansar?",
+            "recomiendame un hotel"
+        ],
+        "respuestas": [
+            "El Hotel Ciudad del Lago",
+            "Hotel Qalasaya",
+            "Hotel Qelqatani",
+            "El hotel Casona",
+            "Hotel Sol Plaza"
+        ]
+     },
+
+     {
+        "indicador": "colegio adventista",
+        "entradas": [
+            "¿colegio adventista?",
+            "¿ubicacion colegio adventista?",
+            "¿donde es el colegio adventista?"
+        ],
+        "respuestas": [
+            "El colegio Adventista se encuentra en Jr. Deza con Jr. Tarapaca"
+        ]
+     },
+     {
+        "indicador": "colegio glorioso",
+        "entradas": [
+            "¿Glorioso Colegio Nacional de San Carlos?",
+            "¿ubicacion Glorioso Colegio Nacional de San Carlos?",
+            "¿donde es el Glorioso Colegio Nacional de San Carlos?"
+        ],
+        "respuestas": [
+            "El Glorioso Colegio Nacional de San Carlos se encuentra en Jr. Arequipa 245"
+        ]
+     },
+     {
+        "indicador": "colegio ignacio",
+        "entradas": [
+            "¿Colegio San Ignacio de Loyola de Puno?",
+            "¿ubicacion Colegio San Ignacio de Loyola de Puno?",
+            "donde es el Colegio San Ignacio de Loyola de Puno?"
+        ],
+        "respuestas": [
+            "El Colegio San Ignacio de Loyola de Puno se encuantre en el Jr. Andres Razuri 475"
+        ]
+     },
+     {
+        "indicador": "colegio rosa",
+        "entradas": [
+            "¿Colegio Santa Rosa?",
+            "¿ubicacion Colegio Santa Rosa?",
+            "donde es el Colegio Santa Rosa?"
+        ],
+        "respuestas": [
+            "El Colegio Santa Rosa se encuentra en Jr. Deustua 701"
+        ]
+     },
+     {
+        "indicador": "colegio champagnat",
+        "entradas": [
+            "¿Colegio Champagnat?",
+            "¿ubicacion Colegio Champagnat?",
+            "donde es el Colegio Champagnat?"
+        ],
+        "respuestas": [
+            "El Colegio Champagnat se encuentra en Jr. Huancane 918"
+        ]
+     },
+
+
+     {
+        "indicador": "despedida",
+        "entradas": [
+            "chau",
+            "hasta luego",
+            "bye",
+            "hasta pronto",
+            "adios",
+            "hasta la siguiente"
+        ],
+        "respuestas": [
+            "Chau",
+            "Cuidate, hasta la siguiente",
+            "Chau cuidate",
+            "Hasta pronto",
+            "Hasta pronto <3"
+
+        ]
+     },
+     {
+        "indicador": "agradecimiento",
+        "entradas": [
+            "gracias",
+            "muchas gracias"
+        ],
+        "respuestas": [
+            "de nada",
+            "no es nada",
+            "un gusto ayudarte"
+
+        ]
+     }    
+    ]
+}
